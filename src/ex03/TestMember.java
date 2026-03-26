@@ -2,6 +2,8 @@ package ex03;
 
 class Member {
 	// Field
+	// access modifier (public, private, protected,를 안붙이면 package level 이다
+	// package level 변수 : 같은 폴더에서 변수 공유
 	int     id;
 	String  name;
 	String  email;
